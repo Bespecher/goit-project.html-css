@@ -1,1 +1,125 @@
-ul {list-style: none;}
+ul {list-style: none;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+  
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  :root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-color: #2196F3;
+  }
+
+  body {
+    color: var(--primary-text-color);
+    letter-spacing: 0.03em;
+    font-family: 'Roboto', sans-serif;
+  }
+
+/*------Main--------*/
+
+.list {list-style: none;
+}
+
+.link {text-decoration: none;
+}
+
+.primary-text-color {color: var(--primary-text-color)
+}
+
+.secondary-text-color {color: var(--secondary-text-color)
+}
+
+.accent-color {color: var(--accent-color)
+}
+
+  /*-------header-------*/
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+  .logo-color {color: #000000;
+}
+
+  .logo-accent-color {color: var(--accent-color);
+}
+
+/*------navigation--------*/
+
+.nav {
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-align: left;
+
+}
+
+.link:hover,
+.link:focus {
+    color: var(--accent-color);
+}
+
+/*--------index.html---------*/
+
+.order-from-us {background-color: #2F303A;
+    text-align: center;
+} 
+.h1  {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  .button-for-order {
+    background-color: var(--accent-color);
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    border-radius: 4px;
+    line-height: 1.88;
+    font-family: inherit;
+  }
+
+.h3-our-features {
+font-size: 14px;
+font-weight: 700;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-align: left;
+text-transform: uppercase;
+}
+
+.p-our-features {
+    font-size: 14px;
+    font-weight: 400;
+line-height: 1.71;
+letter-spacing: 0.03em;
+text-align: left;
+color:var(--secondary-text-color);
+}
+
+.h2-what-we-do {
+font-size: 36px;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-align: center;
+}
