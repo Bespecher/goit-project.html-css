@@ -1,5 +1,9 @@
 ul {list-style: none;
 }
+
+a {text-decoration: none;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -28,10 +32,14 @@ ul {list-style: none;
 /*------Main--------*/
 
 .list {list-style: none;
+  padding: 0;
+  ;
 }
 
 .link {text-decoration: none;
 }
+
+
 
 .primary-text-color {color: var(--primary-text-color)
 }
@@ -40,6 +48,12 @@ ul {list-style: none;
 }
 
 .accent-color {color: var(--accent-color)
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1440px;
 }
 
   /*-------header-------*/
@@ -88,7 +102,7 @@ text-align: left;
     color: #fff;
   }
 
-  .button-for-order {
+.button-for-order {
     background-color: var(--accent-color);
     font-size: 16px;
     font-weight: 700;
@@ -99,6 +113,7 @@ text-align: left;
   }
 
 .h3-our-features {
+margin-top: 0;
 font-size: 14px;
 font-weight: 700;
 line-height: 1.14;
@@ -108,8 +123,8 @@ text-transform: uppercase;
 }
 
 .p-our-features {
-    font-size: 14px;
-    font-weight: 400;
+font-size: 14px;
+font-weight: 400;
 line-height: 1.71;
 letter-spacing: 0.03em;
 text-align: left;
@@ -155,8 +170,12 @@ text-align: center;
 /*--------portfolio---------*/
 
 .button {
+  display: inline-block;
+  min-width: 30px;
+  border: 1px solid:transparent;
+  border-radius: 6px;
   background-color: #f5f4fa;
-  cursor: pointer;
+  cursor:pointer;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
