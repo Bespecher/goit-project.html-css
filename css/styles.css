@@ -29,6 +29,11 @@ a {text-decoration: none;
     font-family: 'Roboto', sans-serif;
   }
 
+  h1, h2, h3, h4, h5, ul {
+    margin: 0;
+    padding: 0;
+  }
+
 /*------Main--------*/
 
 .list {list-style: none;
@@ -91,8 +96,9 @@ text-align: left;
 
 .order-from-us {background-color: #2F303A;
     text-align: center;
+    margin-bottom: 94px;
 } 
-.h1  {
+.index-h1  {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -100,16 +106,28 @@ text-align: left;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #fff;
+    padding-top: 200px;
+    margin-left: 452px;
+    margin-right: 452px;
+    margin-bottom: 30px;
   }
 
 .button-for-order {
     background-color: var(--accent-color);
+    color: #fff;
     font-size: 16px;
     font-weight: 700;
     letter-spacing: 0.06em;
     border-radius: 4px;
     line-height: 1.88;
     font-family: inherit;
+    margin-left: 700px;
+    margin-right: 700px;
+    margin-bottom: 200px;
+  }
+
+  .our-feautures {
+    margin-bottom: 94px;
   }
 
 .h3-our-features {
@@ -131,12 +149,20 @@ text-align: left;
 color:var(--secondary-text-color);
 }
 
+.what-we-do {
+  margin-bottom: 94px;
+}
+
 .h2-what-we-do {
 font-size: 36px;
 font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-align: center;
+}
+
+.our-team {
+  margin-bottom: 94px;
 }
 
 .our-team-bg-color {
