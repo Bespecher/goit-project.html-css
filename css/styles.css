@@ -29,7 +29,14 @@ a {text-decoration: none;
     font-family: 'Roboto', sans-serif;
   }
 
-  h1, h2, h3, h4, h5, ul {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ul {
     margin: 0;
     padding: 0;
   }
@@ -58,7 +65,7 @@ a {text-decoration: none;
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1440px;
+  width: 1600px;
 }
 
   /*-------header-------*/
@@ -69,21 +76,22 @@ a {text-decoration: none;
     line-height: 1.19;
 }
 
-  .logo-color {color: #000000;
+.logo-color {color: #000000;
 }
 
-  .logo-accent-color {color: var(--accent-color);
+.logo-accent-color {color: var(--accent-color);
 }
 
 /*------navigation--------*/
 
 .nav {
-    font-family: Roboto;
+font-family: Roboto;
 font-size: 14px;
 font-weight: 500;
 line-height: 16px;
 letter-spacing: 0.02em;
 text-align: left;
+display: flex;
 
 }
 
