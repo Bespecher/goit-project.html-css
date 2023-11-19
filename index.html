@@ -16,118 +16,130 @@
 </head>
 <body>
      <header">
-        <nav class="nav">
-            <a class="link logo logo-color" href="/index.html">
-                <span class="logo-accent-color">Web</span>Studio</a>
-        <ul class="nav list">
-            <li><a href="/index.html"  class="link main-text-color">Студия</a></li>
-            <li><a href="/portfolio.html"  class="link main-text-color">Портфолио</a></li>
-            <li><a href=""  class="link main-text-color">Контакты</a></li>
-        </ul>
-        </nav>
-        <ul class="nav list">
-            <li>
-                <a href="mailto:info@devstudio.com" class="link secondary-text-color">info@devstudio.com</a>
-            </li>
-            <li>
-                <a href="tel:+380961111111" class="link secondary-text-color">+38 096 111 11 11</a>
-            </li>
-        </ul>
-    </header>
-    </div>
-        <main>
-            <section class="order-from-us">
-                <h1 class="index-h1">Эффективные решения для вашего бизнеса</h1>
-                <button type="button" class="button-for-order">Заказать услугу</button>
-            </section>
-            <section class="our-feautures">
-                <h2 class="visually-hidden">Наши преимущества</h2>
-                <ul class="list">
-                    <li>
-                        <h3 class="h3-our-features">
-                            Внимание к деталям
-                        </h3>
-                        <p class="p-our-feautures secondary-text-color">
-                            Идейные соображения, а также начало повседневной работы по формированию позиции.
-                        </p>
-                    </li>
-                    <li>
-                        <h3 class="h3-our-features">
-                            Пунктуальность
-                        </h3>
-                        <p class="p-our-feautures secondary-text-color">
-                            Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
-                        </p>
-                    </li>
-                    <li>
-                        <h3 class="h3-our-features">
-                            Планирование
-                        </h3>
-                        <p class="p-our-feautures secondary-text-color">
-                            Равным образом консультация с широким активом в значительной степени обуславливает.
-                        </p>
-                    </li>
-                    <li>
-                        <h3 class="h3-our-features">
-                            Современные технологии
-                        </h3>
-                        <p class="p-our-feautures secondary-text-color">
-                            Значимость этих проблем настолько очевидна, что реализация плановых заданий.
-                        </p>
-                </li>
-                </ul>
-            </section>
-            <section class="what-we-do">
-                <h2 class="h2-what-we-do">
-                    Чем мы занимаемся
-                </h2>
-                <ul>
-                    <li><img src="./images/whatwedo-1.png" alt="program developing" width="370"></li>
-                    <li><img src="./images/whatwedo-2.png" alt="product designing" width="370"></li>
-                    <li><img src="./images/whatwedo-3.png" alt="ui designing" width="370"></li>
-                </ul>
-            </section>
-            <section class="our-team our-team-bg-color">
-                <h2 class="h2-our-team">Наша команда</h2>
-                <ul class="list">
-                    <li><img src="./images/igor-des.jpg" alt="our product designer" width="270">
-                    <h3 class="h3-our-member">Игорь Демьяненко</h3>
-                    <p class="p-our-member">Product Designer</p>
-                    </li>
-                    <li>
-                        <img src="./images/olga-front.jpg" alt="our frontend developer" width="270">
-                    <h3 class="h3-our-member">Ольга Репина</h3>
-                    <p class="p-our-member">Frontend Developer</p>
-                    </li>
-                    <li>
-                        <img src="./images/nick-mark.jpg" alt="our marketing specialist" width="270">
-                    <h3 class="h3-our-member">Николай Тарасов</h3>
-                    <p class="p-our-member">Marketing</p>
-                    </li>
-                    <li>
-                        <img src="./images/misha-ui.jpg" alt="our UI designer" width="270">
-                    <h3 class="h3-our-member">Михаил Ермаков</h3>
-                    <p class="p-our-member">UI Designer</p>
-                    </li>
-                </ul>
-            </section>
-        </main>
-        <footer class="footer-background">
-            <div class="container">
+        <div class="header-container">
+            <nav class="nav">
                 <a class="link logo logo-color" href="/index.html">
                     <span class="logo-accent-color">Web</span>Studio</a>
-                <address class="footer-adress">
-                    <a href="https://maps.app.goo.gl/o5YDKNF51fnpsGN16" class="link">г. Киев, пр-т Леси Украинки, 26</a>
-                    <ul class="list">
-                        <li>
-                            <a href="mailto:info@devstudio.com" class="link footer-link-color">info@devstudio.com</a>
-                          </li>
-                          <li>
-                            <a href="tel:+380961111111" class="link footer-link-color">+38 096 111 11 11</a>
-                          </li>
+                <ul class="nav list nav-list">
+                    <li><a href="/index.html"  class="link main-text-color">Студия</a></li>
+                    <li><a href="/portfolio.html"  class="link main-text-color list-portfolio">Портфолио</a></li>
+                    <li><a href=""  class="link main-text-color">Контакты</a></li>
+                </ul>
+                <ul class="nav list nav-list-adress">
+                    <li>
+                        <a href="mailto:info@devstudio.com" class="link secondary-text-color nav-list-email">info@devstudio.com</a>
+                    </li>
+                    <li>
+                        <a href="tel:+380961111111" class="link secondary-text-color">+38 096 111 11 11</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+        <main>
+            <div class="container">
+                <section class="order-from-us">
+                    <h1 class="index-h1">Эффективные решения для вашего бизнеса</h1>
+                    <button type="button" class="button-for-order">Заказать услугу</button>
+                </section>
+                <section class="our-feautures">
+                    <h2 class="visually-hidden">Наши преимущества</h2>
+                    <ul class="list list-our-features">
+                        <li class="item-our-features">
+                            <h3 class="h3-our-features">
+                                Внимание к деталям
+                            </h3>
+                            <p class="p-our-feautures secondary-text-color">
+                                Идейные соображения, а также начало повседневной работы по формированию позиции.
+                            </p>
+                        </li>
+                        <li class="item-our-features">
+                            <h3 class="h3-our-features">
+                                Пунктуальность
+                            </h3>
+                            <p class="p-our-feautures secondary-text-color">
+                                Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+                            </p>
+                        </li>
+                        <li class="item-our-features">
+                            <h3 class="h3-our-features">
+                                Планирование
+                            </h3>
+                            <p class="p-our-feautures secondary-text-color">
+                                Равным образом консультация с широким активом в значительной степени обуславливает.
+                            </p>
+                        </li>
+                        <li class="item-our-features">
+                            <h3 class="h3-our-features">
+                                Современные технологии
+                            </h3>
+                            <p class="p-our-feautures secondary-text-color">
+                                Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+                            </p>
+                        </li>
                     </ul>
-                </address>
+                </section>
+                <section class="what-we-do">
+                    <h2 class="h2-what-we-do">
+                        Чем мы занимаемся
+                    </h2>
+                    <ul class="list-what-we-do">
+                        <li><img src="./images/whatwedo-1.png" alt="program developing" width="370"></li>
+                        <li><img src="./images/whatwedo-2.png" alt="product designing" width="370"></li>
+                        <li><img src="./images/whatwedo-3.png" alt="ui designing" width="370"></li>
+                    </ul>
+                </section>
+                <section class="our-team our-team-bg-color">
+                    <h2 class="h2-our-team">Наша команда</h2>
+                    <ul class="list ul-team">
+                        <li class="li-team"><img src="./images/igor-des.jpg" alt="our product designer" width="270">
+                            <div class="our-member-div">
+                                <h3 class="h3-our-member">Игорь Демьяненко</h3>
+                        <p class="p-our-member">Product Designer</p>
+                            </div>
+                        </li>
+                        <li class="li-team">
+                            <img src="./images/olga-front.jpg" alt="our frontend developer" width="270">
+                            <div class="our-member-div">  
+                        <h3 class="h3-our-member">Ольга Репина</h3>
+                        <p class="p-our-member">Frontend Developer</p>
+                            </div>
+                        </li>
+                        <li class="li-team">
+                            <img src="./images/nick-mark.jpg" alt="our marketing specialist" width="270">
+                        <div class="our-member-div">
+                            <h3 class="h3-our-member">Николай Тарасов</h3>
+                        <p class="p-our-member">Marketing</p>
+                        </div>
+                        </li>
+                        <li class="li-team">
+                            <img src="./images/misha-ui.jpg" alt="our UI designer" width="270">
+                        <div class="our-member-div">
+                            <h3 class="h3-our-member">Михаил Ермаков</h3>
+                        <p class="p-our-member">UI Designer</p>
+                        </div>
+                        </li>
+                    </ul>
+                </section>
             </div>
-        </footer>
+        </main>
+        <footer class="footer">
+            <div class="container">
+              <a href="" class="logo link logo-footer"
+                ><span class="logo-accent-color">Web</span>Studio</a
+              >
+              <address class="footer-address">
+                <p class="link footer-address-p">г. Киев, пр-т Леси Украинки, 26</p>
+                <ul class="list">
+                  <li class="footer-address-li">
+                    <a href="mailto:info@devstudio.com" class="link footer-link">info@devstudio.com</a>
+                  </li>
+                  <li class="footer-address-li">
+                    <a href="tel:+380961111111" class="link footer-link">+38 096 111 11 11</a>
+                  </li>
+                </ul>
+              </address>
+            </div>
+          </footer>
 </body>
 </html>
